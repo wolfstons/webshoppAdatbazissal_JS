@@ -1,0 +1,62 @@
+[
+  {
+    "src": "src/telefon.jpg",
+    "nev": "Okostelefon X1",
+    "ar": 129990,
+    "leiras": "Modern okostelefon nagy felbontású kijelzővel és gyors processzorral."
+  },
+  {
+    "src": "src/laptop.jpg",
+    "nev": "Laptop Pro 15",
+    "ar": 349990,
+    "leiras": "Erőteljes laptop munkához és játékhoz, hosszú akkumulátor idővel."
+  },
+  {
+    "src": "src/fejhalgato.jpg",
+    "nev": "Vezeték nélküli fülhallgató",
+    "ar": 24990,
+    "leiras": "Kényelmes és kiváló hangzású bluetooth fülhallgató."
+  },
+  {
+    "src": "src/ora.jpg",
+    "nev": "Okosóra Fit",
+    "ar": 39990,
+    "leiras": "Egészségfigyelő funkciókkal ellátott stílusos okosóra."
+  },
+  {
+    "src": "src/tablet.jpg",
+    "nev": "Tablet Plus",
+    "ar": 89990,
+    "leiras": "Könnyű és gyors tablet szórakozáshoz és munkához."
+  },
+  {
+    "src": "src/hangszoro.jpg",
+    "nev": "Bluetooth hangszóró",
+    "ar": 19990,
+    "leiras": "Hordozható hangszóró erőteljes basszussal."
+  },
+  {
+    "src": "src/eger.jpg",
+    "nev": "Gaming egér",
+    "ar": 14990,
+    "leiras": "Precíz és gyors válaszidejű egér játékosoknak."
+  },
+  {
+    "src": "src/billentyuzet.jpg",
+    "nev": "Mechanikus billentyűzet",
+    "ar": 29990,
+    "leiras": "Tartós és kényelmes billentyűzet RGB világítással."
+  },
+  {
+    "src": "src/monitor.jpg",
+    "nev": "Full HD monitor",
+    "ar": 69990,
+    "leiras": "Éles kép és széles látószögű kijelző irodai és otthoni használatra."
+  },
+  {
+    "src": "src/ssd.jpg",
+    "nev": "Külső SSD 1TB",
+    "ar": 45990,
+    "leiras": "Gyors adatátvitel és nagy tárhely hordozható kivitelben."
+  }
+]

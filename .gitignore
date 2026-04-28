@@ -1,0 +1,22 @@
+# Függőségek
+node_modules/
+jspm_packages/
+
+# Ideiglenes fájlok és naplók
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Környezeti változók (titkos kulcsok, jelszavak)
+.env
+.env.local
+
+# Szerkesztő specifikus fájlok
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

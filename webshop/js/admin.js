@@ -1,10 +1,26 @@
 import Tabla from "./Tabla.js";
-import { termekek } from "./adat.js"
-
-let lista = [...termekek];
 
 const szuloElem = document.querySelector(".tablazat");
-new Tabla(termekek, szuloElem)
+async function adatBetoltes() {
+    try {
+        // Megszólítjuk a backendet (amit korábban megírtál)
+        const response = await fetch("http://localhost:3000/products");
+        const termekek = await response.json();
+
+        // Miután megjöttek az adatok, példányosítjuk a Kartyak osztályt
+        new Tabla(termekek,szuloElem);
+        
+    } catch (error) {
+        console.error("Hiba történt az adatok betöltésekor:", error);
+        termekekElement.innerHTML = "Sajnos nem sikerült betölteni a termékeket.";
+    }
+}
+
+// 2. Meghívjuk a függvényt az oldal betöltésekor
+adatBetoltes();
+
+
+
 
 window.addEventListener("szerk" , (event)=>{
   console.log(event.detail)
@@ -13,7 +29,7 @@ window.addEventListener("szerk" , (event)=>{
 
 function frissit() {
   szuloElem.innerHTML = "";
-  new Tabla(lista, szuloElem);
+  adatBetoltes();
 }
 
 

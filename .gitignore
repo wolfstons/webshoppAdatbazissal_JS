@@ -1,6 +1,6 @@
 # Függőségek
 node_modules/
-jspm_packages/
+
 
 # Ideiglenes fájlok és naplók
 npm-debug.log*
